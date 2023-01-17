@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:TextField picking-mode="Ignore" label="My String" value="filler text" text="filler text" binding-path="myString" />
+    <uie:LayerMaskField label="Defined layers" binding-path="layers" />
+    <uie:ColorField label="Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" binding-path="color" />
+    <uie:PropertyField binding-path="entityClass" label="Entity class" />
+    <uie:PropertyField binding-path="itemClass" label="Select item" />
+    <ui:Foldout text="Default inspector" name="default_inspector" />
+</ui:UXML>
